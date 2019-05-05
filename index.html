@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Main</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+        <script defer
+            src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <div id="elm"></div>
+        <script>
+            var app = Elm.Main.init({
+                node: document.getElementById('elm'),
+                flags: {greeting: "Hello Again, World!", times: 8, datetime: Date.now() }
+            });
+        </script>
+    </body>
+</html>
