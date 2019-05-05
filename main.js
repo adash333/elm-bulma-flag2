@@ -5224,7 +5224,7 @@ var author$project$Main$view = function (model) {
 										elm$html$Html$a,
 										_List_fromArray(
 											[
-												elm$html$Html$Attributes$href('http://i-doctor.sakura.ne.jp/font/?p=37457')
+												elm$html$Html$Attributes$href('http://i-doctor.sakura.ne.jp/font/?p=37545')
 											]),
 										_List_fromArray(
 											[
